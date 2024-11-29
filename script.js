@@ -41,10 +41,12 @@ const plygame = (userchoice) => {
     let userwin = true;
     if (userchoice === "rock") {
       userwin = comchoice === "paper" ? false : true;
+
     } else if (userchoice === "paper") {
       userwin = comchoice === "scissers" ? false : true;
+
     } else {
-      userwin = comchoice === "rock" ? false : true;
+      userwin = comchoice === "scissers" ? false : true;
     }
     showwiner(userwin, userchoice, comchoice);
   }
