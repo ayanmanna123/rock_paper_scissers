@@ -46,7 +46,7 @@ const plygame = (userchoice) => {
       userwin = comchoice === "scissers" ? false : true;
 
     } else {
-      userwin = comchoice === "scissers" ? false : true;
+      userwin = comchoice === "rock" ? false : true;
     }
     showwiner(userwin, userchoice, comchoice);
   }
