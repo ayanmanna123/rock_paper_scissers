@@ -43,7 +43,7 @@ const plygame = (userchoice) => {
       userwin = comchoice === "paper" ? false : true;
 
     } else if (userchoice === "paper") {
-      userwin = comchoice === "scissers" ? false : true;
+      userwin = comchoice === "scissors" ? false : true;
 
     } else {
       userwin = comchoice === "rock" ? false : true;
